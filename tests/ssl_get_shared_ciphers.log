@@ -1,0 +1,2 @@
+PASS ssl_get_shared_ciphers.c
+PASS ssl_get_shared_ciphers.exe (exit status: 0)

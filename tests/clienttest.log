@@ -1,0 +1,18 @@
+Test 0 - DTLSv1 client method
+Test 1 - DTLSv1.2 client method
+Test 2 - DTLS client method
+Test 3 - DTLS client method (no DTLSv1.2)
+Test 4 - DTLS client method (no DTLSv1.0)
+Test 5 - TLSv1 client method
+Test 6 - TLSv1_1 client method
+Test 7 - TLSv1_2 client method
+Test 8 - SSLv23 default
+Test 9 - SSLv23 default (no TLSv1.3)
+Test 10 - SSLv23 (no TLSv1.2)
+Test 11 - SSLv23 (no TLSv1.1)
+Test 12 - TLS default
+Test 13 - TLS (no TLSv1.3)
+Test 14 - TLS (no TLSv1.2)
+Test 15 - TLS (no TLSv1.1)
+Test 16 - TLS (no TLSv1.0, no TLSv1.1, no TLSv1.2)
+PASS clienttest.exe (exit status: 0)

@@ -1,0 +1,3 @@
+Test 0 - TLSv1.0 in SSLv2 record
+Test 1 - TLSv1.2 in SSLv2 record
+PASS servertest.sh (exit status: 0)

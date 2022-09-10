@@ -1,0 +1,12 @@
+We should see some errors about RSA d:
+34359738384:error:04FFF07B:rsa routines:CRYPTO_internal:d e not congruent to 1:rsa/rsa_chk.c:161:
+34359738384:error:04FFF07C:rsa routines:CRYPTO_internal:dmp1 not congruent to d:rsa/rsa_chk.c:180:
+34359738384:error:04FFF07D:rsa routines:CRYPTO_internal:dmq1 not congruent to d:rsa/rsa_chk.c:198:
+EVP_PKEY_check test for RSA done.
+We should see an error about the EC private key:
+34359738384:error:10FFF07B:elliptic curve routines:CRYPTO_internal:invalid private key:ec/ec_key.c:367:
+We should see an error on invalid group order
+34359738384:error:10FFF07A:elliptic curve routines:CRYPTO_internal:invalid group order:ec/ec_check.c:104:
+EVP_PKEY_check test for EC done.
+SUCCESS
+PASS evp_pkey_check.exe (exit status: 0)

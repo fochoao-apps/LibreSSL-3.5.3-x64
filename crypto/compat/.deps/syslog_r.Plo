@@ -1,0 +1,15 @@
+compat/syslog_r.lo: compat/syslog_r.c ../include/compat/syslog.h \
+ /usr/include/syslog.h /usr/include/sys/syslog.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h /usr/include/sys/features.h \
+ /usr/include/_newlib_version.h \
+ /usr/lib/gcc/x86_64-pc-msys/11.3.0/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-msys/11.3.0/include/stdarg.h
+../include/compat/syslog.h:
+/usr/include/syslog.h:
+/usr/include/sys/syslog.h:
+/usr/include/sys/cdefs.h:
+/usr/include/machine/_default_types.h:
+/usr/include/sys/features.h:
+/usr/include/_newlib_version.h:
+/usr/lib/gcc/x86_64-pc-msys/11.3.0/include/stddef.h:
+/usr/lib/gcc/x86_64-pc-msys/11.3.0/include/stdarg.h:

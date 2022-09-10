@@ -1,0 +1,10 @@
+rc4/libcrypto_la-rc4_skey.lo: rc4/rc4_skey.c ../include/openssl/rc4.h \
+ ../include/openssl/opensslconf.h ../include/openssl/opensslfeatures.h \
+ /usr/lib/gcc/x86_64-pc-msys/11.3.0/include/stddef.h rc4/rc4_locl.h \
+ ../include/openssl/opensslv.h
+../include/openssl/rc4.h:
+../include/openssl/opensslconf.h:
+../include/openssl/opensslfeatures.h:
+/usr/lib/gcc/x86_64-pc-msys/11.3.0/include/stddef.h:
+rc4/rc4_locl.h:
+../include/openssl/opensslv.h:

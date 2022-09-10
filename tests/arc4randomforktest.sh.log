@@ -1,0 +1,3 @@
+assertion "(countone) <= (1)" failed: file "arc4randomforktest.c", line 166, function: main
+./arc4randomforktest.sh: line 3: 36551 Aborted                 (core dumped) ./arc4randomforktest
+FAIL arc4randomforktest.sh (exit status: 134)

@@ -1,0 +1,7 @@
+PKCS #1 v1.5 encryption/decryption ok
+OAEP encryption/decryption ok
+PKCS #1 v1.5 encryption/decryption ok
+OAEP encryption/decryption ok
+PKCS #1 v1.5 encryption/decryption ok
+OAEP encryption/decryption ok
+PASS rsa_test.exe (exit status: 0)

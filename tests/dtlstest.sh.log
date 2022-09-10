@@ -1,0 +1,247 @@
+
+== Testing DTLS without cookies... ==
+INFO: server accept done
+INFO: client connect done
+INFO: server write done
+INFO: client read done
+INFO: client write done
+INFO: server read done
+INFO: client shutdown done
+INFO: server shutdown done
+INFO: Done!
+
+== Testing DTLS without cookies (initial epoch 0xfffe)... ==
+INFO: server accept done
+INFO: client connect done
+INFO: server write done
+INFO: client read done
+INFO: client write done
+INFO: server read done
+INFO: client shutdown done
+INFO: server shutdown done
+INFO: Done!
+
+== Testing DTLS without cookies (initial epoch 0xffff)... ==
+INFO: server accept done
+INFO: client connect done
+INFO: server write done
+INFO: client read done
+INFO: client write done
+INFO: server read done
+INFO: client shutdown done
+INFO: server shutdown done
+INFO: Done!
+
+== Testing DTLS with cookies... ==
+INFO: server accept done
+INFO: client connect done
+INFO: server write done
+INFO: client read done
+INFO: client write done
+INFO: server read done
+INFO: client shutdown done
+INFO: server shutdown done
+INFO: Done!
+
+== Testing DTLS with low MTU... ==
+INFO: server accept done
+INFO: client connect done
+INFO: server write done
+INFO: client read done
+INFO: client write done
+INFO: server read done
+INFO: client shutdown done
+INFO: server shutdown done
+INFO: Done!
+
+== Testing DTLS with low MTU and cookies... ==
+INFO: server accept done
+INFO: client connect done
+INFO: server write done
+INFO: client read done
+INFO: client write done
+INFO: server read done
+INFO: client shutdown done
+INFO: server shutdown done
+INFO: Done!
+
+== Testing DTLS with dropped server response... ==
+INFO: client timeout
+INFO: server timeout
+INFO: server accept done
+INFO: client connect done
+INFO: server write done
+INFO: client read done
+INFO: client write done
+INFO: server read done
+INFO: client shutdown done
+INFO: server shutdown done
+INFO: Done!
+
+== Testing DTLS with two dropped server responses... ==
+INFO: client timeout
+INFO: server timeout
+INFO: client timeout
+INFO: server timeout
+INFO: server accept done
+INFO: client connect done
+INFO: server write done
+INFO: client read done
+INFO: client write done
+INFO: server read done
+INFO: client shutdown done
+INFO: server shutdown done
+INFO: Done!
+
+== Testing DTLS with dropped ServerHello... ==
+INFO: client timeout
+INFO: server timeout
+INFO: server accept done
+INFO: client connect done
+INFO: server write done
+INFO: client read done
+INFO: client write done
+INFO: server read done
+INFO: client shutdown done
+INFO: server shutdown done
+INFO: Done!
+
+== Testing DTLS with dropped server Certificate... ==
+INFO: client timeout
+INFO: server timeout
+INFO: server accept done
+INFO: client connect done
+INFO: server write done
+INFO: client read done
+INFO: client write done
+INFO: server read done
+INFO: client shutdown done
+INFO: server shutdown done
+INFO: Done!
+
+== Testing DTLS with dropped ServerKeyExchange... ==
+INFO: server timeout
+INFO: server accept done
+INFO: client connect done
+INFO: server write done
+INFO: client read done
+INFO: client write done
+INFO: server read done
+INFO: client shutdown done
+INFO: server shutdown done
+INFO: Done!
+
+== Testing DTLS with dropped ServerHelloDone... ==
+INFO: server timeout
+INFO: server accept done
+INFO: client connect done
+INFO: server write done
+INFO: client read done
+INFO: client write done
+INFO: server read done
+INFO: client shutdown done
+INFO: server shutdown done
+INFO: Done!
+
+== Testing DTLS with dropped ClientKeyExchange... ==
+INFO: client timeout
+INFO: server timeout
+INFO: server accept done
+INFO: client connect done
+INFO: server write done
+INFO: client read done
+INFO: client write done
+INFO: server read done
+INFO: server shutdown done
+INFO: client shutdown done
+INFO: Done!
+
+== Testing DTLS with dropped client CCS... ==
+INFO: client timeout
+INFO: server timeout
+INFO: server accept done
+INFO: client connect done
+INFO: server write done
+INFO: client read done
+INFO: client write done
+INFO: server read done
+INFO: server shutdown done
+INFO: client shutdown done
+INFO: Done!
+
+== Testing DTLS with dropped client Finished... ==
+INFO: client timeout
+INFO: server timeout
+INFO: server accept done
+INFO: client connect done
+INFO: server write done
+INFO: client read done
+INFO: client write done
+INFO: server read done
+INFO: client shutdown done
+INFO: server shutdown done
+INFO: Done!
+
+== Testing DTLS with delayed client CCS... ==
+INFO: client timeout
+INFO: server timeout
+INFO: server accept done
+INFO: client connect done
+INFO: server write done
+INFO: client read done
+INFO: client write done
+INFO: server read done
+INFO: server shutdown done
+INFO: client shutdown done
+INFO: Done!
+
+== Testing DTLS with delayed server CCS... ==
+INFO: server accept done
+INFO: server writing after accept
+INFO: server writing after accept
+INFO: server writing after accept
+INFO: client connect done
+INFO: client reading after connect
+INFO: client reading after connect
+INFO: client reading after connect
+INFO: Done!
+
+== Testing DTLS with delayed server CCS (initial epoch 0xfffe)... ==
+INFO: server accept done
+INFO: server writing after accept
+INFO: server writing after accept
+INFO: server writing after accept
+INFO: client connect done
+INFO: client reading after connect
+INFO: client reading after connect
+INFO: client reading after connect
+INFO: Done!
+
+== Testing DTLS with delayed server CCS (initial epoch 0xffff)... ==
+INFO: server accept done
+INFO: server writing after accept
+INFO: server writing after accept
+INFO: server writing after accept
+INFO: client connect done
+INFO: client reading after connect
+INFO: client reading after connect
+INFO: client reading after connect
+INFO: Done!
+
+== Testing DTLS with delayed server Finished... ==
+INFO: server accept done
+INFO: server writing after accept
+INFO: server writing after accept
+INFO: server writing after accept
+INFO: client connect done
+INFO: client reading after connect
+INFO: client reading after connect
+INFO: client reading after connect
+INFO: Done!
+
+== Testing DTLS with delayed server CCS (close-notify)... ==
+INFO: server accept done
+INFO: client connect done
+INFO: client received close-notify
+INFO: Done!
+PASS dtlstest.sh (exit status: 0)

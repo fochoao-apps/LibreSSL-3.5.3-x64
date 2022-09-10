@@ -1,0 +1,14 @@
+curve25519/libcrypto_la-curve25519-generic.lo: \
+ curve25519/curve25519-generic.c curve25519/curve25519_internal.h \
+ /usr/lib/gcc/x86_64-pc-msys/11.3.0/include/stdint.h \
+ /usr/include/stdint.h /usr/include/machine/_default_types.h \
+ /usr/include/sys/features.h /usr/include/_newlib_version.h \
+ /usr/include/sys/_intsup.h /usr/include/sys/_stdint.h
+curve25519/curve25519_internal.h:
+/usr/lib/gcc/x86_64-pc-msys/11.3.0/include/stdint.h:
+/usr/include/stdint.h:
+/usr/include/machine/_default_types.h:
+/usr/include/sys/features.h:
+/usr/include/_newlib_version.h:
+/usr/include/sys/_intsup.h:
+/usr/include/sys/_stdint.h:

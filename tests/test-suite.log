@@ -1,0 +1,21 @@
+==========================================
+   libressl 3.5.3: tests/test-suite.log
+==========================================
+
+# TOTAL: 102
+# PASS:  101
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+
+.. contents:: :depth: 2
+
+FAIL: arc4randomforktest.sh
+===========================
+
+assertion "(countone) <= (1)" failed: file "arc4randomforktest.c", line 166, function: main
+./arc4randomforktest.sh: line 3: 36551 Aborted                 (core dumped) ./arc4randomforktest
+FAIL arc4randomforktest.sh (exit status: 134)
+
